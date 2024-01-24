@@ -1,0 +1,9 @@
+div {
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    padding-left: 20px;
+    margin-left: 20px;
+    width: 500px;
+    height: 500px;
+    background-color: black;
+}
