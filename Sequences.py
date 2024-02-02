@@ -17,6 +17,19 @@ else:
     
 #Data structures 
 
+#lists 
 names = ["mark", "sam" , "paulo"]
+names.append["Ben"]
+print(names)
+print(names[-1])
 
-print(names[0])
+#Tuples 
+coordinates = (0.2,0.4)
+print(coordinates)
+
+more_fruits = ("pawpaw" , "pineapple")
+fruits =  ("banana" , "orange")
+print(fruits)
+fruits.add("apple")
+fruits.update(more_fruits)
+print(fruits)
