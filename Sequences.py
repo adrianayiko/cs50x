@@ -33,3 +33,12 @@ print(fruits)
 fruits.add("apple")
 fruits.update(more_fruits)
 print(fruits)
+
+# using a for loop in a function 
+def loops():
+    listq = [1,2,3,4,5,6,7,8,9,10]
+    sum = 0
+    for x in listq:
+        sum+=x
+    print(f"the sum of all elements in the list is {sum}")
+    return sum
