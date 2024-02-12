@@ -19,7 +19,6 @@ else:
 
 #lists 
 names = ["mark", "sam" , "paulo"]
-names.append["Ben"]
 print(names)
 print(names[-1])
 
@@ -42,3 +41,4 @@ def loops():
         sum+=x
     print(f"the sum of all elements in the list is {sum}")
     return sum
+loops()
