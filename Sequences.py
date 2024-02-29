@@ -24,13 +24,13 @@ print(names[-1])
 
 #Tuples 
 coordinates = (0.2,0.4)
-print(coordinates)
+print(coordinates) 
 
 more_fruits = ("pawpaw" , "pineapple")
 fruits =  ("banana" , "orange")
 print(fruits)
-fruits.add("apple")
-fruits.update(more_fruits)
+# fruits.add("apple")
+# fruits.update(more_fruits)
 print(fruits)
 
 # using a for loop in a function 
