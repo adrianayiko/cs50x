@@ -1,4 +1,4 @@
-names = ["mark", "Aggrey", "Duku","Benjamin"]
+names = ["mark", "Aggrey", "Duku", "Benjamin"]
 for name in names:
     print(name)
 # Output: mark Aggrey Duku Benjamin
@@ -10,11 +10,14 @@ halls = {
     "duku":"lumumba",
     "Benjamin":"Livingstone",
     "mark":"Mitchell",
-    "Aggrey":"Nsibiwa"
+    "Aggrey":"Nsibiwa",
+    "Caden" :"Africa",
+    "Esther" :"Complex"
 }
+print(halls) # Output: Dictionary
 print(halls["mark"]) # Output: Mitchell
 
 if "Duku" in halls.keys():
     print(halls["duku"])# Output: lumumba
 else:
-    print(halls["Benjamin"])# Output: livingstone
+    print(halls["Benjamin"])# Output: Livingstone
