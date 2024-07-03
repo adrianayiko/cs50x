@@ -19,7 +19,9 @@ else:
 
 #lists 
 names = ["mark", "sam" , "paulo"]
+names.append("Esther")
 print(names)
+names.sort
 print(names[-1])
 
 #Tuples 
